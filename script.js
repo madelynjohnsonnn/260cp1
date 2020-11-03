@@ -26,7 +26,7 @@ document.getElementById("sampleSubmit").addEventListener("click", function(event
         results += '<td style="width: 33.3333%;"><img width="100%" src="' + json.hits[1].previewURL + '"/></td>';
         results += '<td style="width: 33.3333%;"><img width="100%"src="' + json.hits[2].previewURL + '"/></td>';
         results += '</tr></tbody></table>'
-        results += '<p><a href="http://madelynjohnson.xyz/lab2/home.html">Back to home page</a></p>'
+        results += '<p><a href="http://madelynjohnson.xyz/lab2quicksnap/home.html">Back to home page</a></p>'
 
         // results += "</td></tr></tbody></table>";
         document.getElementById("sampleResults").innerHTML = results;
